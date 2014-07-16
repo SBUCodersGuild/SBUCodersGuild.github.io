@@ -3,7 +3,7 @@ SBUCodersGuild.github.io
 
 This is the repository for the site hosted at SBUCodersGuild.github.io
 
-Join the discussion on [![Gitter chat](https://badges.gitter.im/SBUCodersGuild.png)](https://gitter.im/SBUCodersGuild)
+Join the discussion on [![Gitter chat](https://badges.gitter.im/SBUCodersGuild/SBUCodersGuild.github.io.png)](https://gitter.im/SBUCodersGuild/SBUCodersGuild.github.io)
 
 
 ### Build & run the site locally:
