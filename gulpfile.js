@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var changed = require('gulp-changed');
 
-var SRC = 'static/js/*.js;
+var SRC = 'static/js/*.js';
 var DEST = 'static/build';
 
 gulp.task('default', function() {
