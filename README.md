@@ -6,9 +6,9 @@ This is the repository for the site hosted at SBUCodersGuild.github.io
 
 
 ### Build & run the site locally:
-- Install [npm](npmjs.org)
-- Install [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
-- Follow instructions [here](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.mdhttps://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) for running gulp
+- Install [npm](http://www.npmjs.org)
+- Install [gulp](https://www.github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+- Follow instructions [here](https://www.github.com/gulpjs/gulp/blob/master/docs/getting-started.md) for running gulp
 - To deploy a local HTTP server for development:
 ```python
 python -m SimpleHTTPServer
