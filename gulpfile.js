@@ -1,5 +1,7 @@
 var gulp = require('gulp');
 var changed = require('gulp-changed');
+var jscs = require('gulp-jscs');
+var uglify = require('gulp-uglify');
 
 var SRC = 'static/js/*.js';
 var DEST = 'static/build';
