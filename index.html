@@ -1,59 +1,114 @@
 <html>
 	<head>
+		<!--Temporarily hosting js libraries from cloudflare, will move to project-->
+		<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+
 		<style>
-			h1{font-size: 75px;border: 2px solid black;text-align: center;}
-			body{font-size: 20px;font color: blue;text-align: center}
-			table{width: 100%;text-align: center;}
-			td{border:2px solid black;background-color: white;padding-left: 20px;padding-right:20px;text-align: center;font-size: 20px;}
+			html>body{
+				margin:0 !important;
+				background:#333;
+				font-size:14px;
+			}
+			ul, li{
+				list-style-type: none;
+			}
+			footer{
+				position:absolute;
+				top:90%;
+				width:100%;
+				height:10%;
+
+				background-color: #000;
+				color:#fff;
+			}
+			a{
+				text-decoration: none;
+			}
+			.game-font{
+				font-family: 'Press Start 2P', cursive;
+			}
+			.nav-container{
+				position:fixed;
+				background-color: #000;
+				color:#fff;
+				text-align: center;
+				top:0;
+				width: 100%;
+				margin-bottom:10%;
+			}
+			.nav-title{
+				float:left;
+				display:inline-block;
+			}
+			main{
+				margin: 10% auto;
+				width:80%;
+				height: auto;
+
+			}
+			.main-center{
+				margin:20px auto;
+				background-color: #fff;
+				color:#000;
+			}
+			.main-left{
+				clear:both;
+				float:left;
+				max-width:40%;
+				background-color: #fff;
+				color:#000;
+			}
+			.main-right{
+				float:right;
+				max-width:40%;
+
+				background-color: #fff;
+				color:#000;
+			}
+			.main-title{
+				text-align: center;
+			}
+			.footer-container{
+				display:inline-block;
+			}
+			.footer-list{
+				text-align: center;
+			}
+			.footer-item, .nav-item{
+				display: inline-block;
+			}
 		</style>
 		</head>
-	<body style = "background-color: black;">
-		<!--Head-->
-		<div>
-			<table>
-				<tr>
-					<td style = "font-size:50px;text-align:center;padding-top:10px;padding-bottom:10px;">
-						<code> SBU Coders Guild </code>
-					</td>
-				</tr>
-			</table>
-		</div>
-		<!--table for ongoing projects-->
-<br>
-		<div>
-			<table>
-				<tr>
-					<td>
-						<a href = "https://github.com/SBUCodersGuild"> GitHub Repository</a>
-					</td>
-				</tr>
-			</table>
-		</div>
-<br>
-		<div>
-			<table>
-				<tr>
-					<td>Ongoing Projects
-						<div>
-							<table>
-								<!--Format for Ongoing Projects-->
-								<tr>
-									<td style = "padding-top:30px;padding-bottom:30px;border:2px solid black;">
-										Temperoray holder for Ongoing Projects
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<a href = "language.html">Language</a>
-									</td>
-								</tr>
-
-							</table>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-
+	<body>
+		<header class="nav-container">
+			<nav class="nav-content">
+				<h1 class="game-font nav-title">SBU Coder's Guild (banner)</h1>
+				<ul class="nav-list">
+					<li class="nav-item"><a href="/language.html"><h3>language hubs</h3></a></li>
+					<li class="nav-item"><h3>projects</h3></li>
+					<li class="nav-item"><h3>members</h3></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="main-center section-1">
+				<h1 class="game-font main-title">Welcome!</h1>
+			</div>
+			<div class="main-left section-2">
+				<h2>Recent github activity:</h2>
+			</div>
+			<div class="main-right section-3">
+				<h2>News & Announcements</h2>
+			</div>
+		</main>
+		<footer class="footer-container game-font">
+			<div class="footer-content">
+				<ul class="footer-list">
+					<li class="footer-item"><a href="https://github.com/SBUCodersGuild" target="_this">github</a></li>
+					<li class="footer-item">facebook</li>
+					<li class="footer-item">gitter?</li>
+				</ul>
+			</div>
+		</footer>
 	</body>
 </html>
