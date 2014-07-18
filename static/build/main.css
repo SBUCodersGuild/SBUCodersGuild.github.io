@@ -1,2 +1,76 @@
-html {
-  background: #AA0000; }
+.game-font {
+  font-family: 'Press Start 2P', cursive; }
+
+.roboto-font, .nav-item {
+  font-family: 'Roboto', sans-serif; }
+
+.game-font {
+  font-family: 'Press Start 2P', cursive; }
+
+.roboto-font, .nav-item {
+  font-family: 'Roboto', sans-serif; }
+
+.nav-container {
+  position: fixed;
+  background-color: #F0F0F0;
+  border-bottom: 6px;
+  border-style: solid;
+  border-color: #2C82BA;
+  color: #000;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  margin-bottom: 10%; }
+
+.nav-title {
+  float: left;
+  display: inline-block;
+  background: #AA0000;
+  border: solid 4px #FF3C40;
+  border-left: none;
+  color: #F0F0F0;
+  text-shadow: -1px -1px 4px #000;
+  padding: 1em 0.5em;
+  font-size: 36px; }
+
+.nav-list {
+  width: 40%;
+  float: right;
+  display: inline-block;
+  padding-top: 1em;
+  vertical-align: middle; }
+
+.nav-item {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-right: 20px;
+  background: #F0F0F0;
+  font-size: 0.8em;
+  float: left;
+  width: 120px;
+  border-radius: 30px; }
+  .nav-item a {
+    color: #000; }
+  .nav-item a:hover {
+    color: #2C82BA; }
+  .nav-item a:active {
+    color: #AA0000; }
+
+html > body {
+  margin: 0 !important;
+  background: #EEEEEE;
+  font-size: 14px; }
+
+ul, li {
+  list-style-type: none; }
+
+footer {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  height: 10%;
+  background-color: #000;
+  color: #fff; }
+
+a {
+  text-decoration: none; }
