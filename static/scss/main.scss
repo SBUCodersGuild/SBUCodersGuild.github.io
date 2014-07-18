@@ -6,6 +6,10 @@ html>body{
 	font-size:14px;
 }
 
+header{
+	border-bottom: solid 4px $gray;
+}
+
 ul, li{
 	list-style-type: none;
 }
