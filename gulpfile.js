@@ -23,5 +23,5 @@ gulp.task('sass', function(){
 		.pipe(gulp.dest(CSS_DEST));
 })
 
-gulp.task('default', ['js', 'sass'])
+gulp.task('default', ['js', 'sass']);
 
