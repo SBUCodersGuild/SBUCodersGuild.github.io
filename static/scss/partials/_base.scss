@@ -1,5 +1,4 @@
 @import "modules/colors";
+@import "modules/fonts";
 
-html{
-	background: $red;
-}
+@import "partials/nav";
