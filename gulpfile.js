@@ -17,11 +17,12 @@ gulp.task('js', function() {
 	.pipe(gulp.dest(JS_DEST));
 });
 
-gulp.task('sass', function(){
+gulp.task('sass', function() {
 	return gulp.src(CSS_SRC)
-		.pipe(sass)
+		.pipe(changed(CSS_DEST))
+		.pipe(sass({style: 'expanded', errLogToConsole: 'true'}))
 		.pipe(gulp.dest(CSS_DEST));
-})
+});
 
 gulp.task('default', ['js', 'sass']);
 
