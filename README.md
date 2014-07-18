@@ -8,9 +8,16 @@ Join the discussion on [![Gitter chat](https://badges.gitter.im/SBUCodersGuild/S
 
 ### Build & run the site locally:
 - Install [npm](http://www.npmjs.org)
+```
+npm install -g gulp
+```
 - Install [gulp](https://www.github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+```
+npm install --save-dev gulp
+```
+- Install gulp dependencies (see full list below)
 - Follow instructions [here](https://www.github.com/gulpjs/gulp/blob/master/docs/getting-started.md) for running gulp
-- To deploy a local HTTP server for development:
+- To deploy a local HTTP server for development run this from the root directory of the project:
 ```python
 python -m SimpleHTTPServer
 ```
@@ -34,3 +41,16 @@ More info & preview on [kuler](https://kuler.adobe.com/SBU-Coders-Guild-color-th
 #### Fonts:
 - 8bit headings: http://fonts.googleapis.com/css?family=Press+Start+2P
 - Content: (needed -- roboto maybe?)
+
+
+Gulp dependencies:
+--------------------
+#### Install:
+```
+npm install (module name)
+```
+
+#### Current modules:
+- gulp-changed
+- gulp-uglify
+- gulp-sass
