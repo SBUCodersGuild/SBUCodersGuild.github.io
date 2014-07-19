@@ -33,6 +33,9 @@
 		max-width:100%;
 		width: 100%;
 	}
+	@media screen and (max-width: 680px){
+		padding: 1em 0;
+	}
 }
 .nav-list{
 	width:42%;
@@ -48,6 +51,14 @@
 		display:block;
 		float: left;
 		margin-top: 0;
+	}
+	@media screen and (max-width: 560px){
+		width: 90%;
+		margin: 10px auto;
+		float:left;
+		padding: 0;
+		display:block;
+		clear:both;
 	}
 }
 .nav-item{
@@ -73,6 +84,12 @@
 	a:active, a:visited{
 		color:$gray;
 	}
-
 	cursor: pointer;
+
+
+	@media screen and (max-width: 560px){
+		width: 100%;
+		display: block;
+		margin-bottom: 4px;
+	}
 }
