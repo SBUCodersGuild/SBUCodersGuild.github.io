@@ -1,14 +1,20 @@
-.game-font, .nav-item {
+.game-font {
   font-family: 'Press Start 2P', cursive; }
 
 .roboto-font {
   font-family: 'Roboto', sans-serif; }
 
-.game-font, .nav-item {
+.header-font, .nav-item {
+  font-family: 'Museo Slab', Arial, sans-serif; }
+
+.game-font {
   font-family: 'Press Start 2P', cursive; }
 
 .roboto-font {
   font-family: 'Roboto', sans-serif; }
+
+.header-font, .nav-item {
+  font-family: 'Museo Slab', Arial, sans-serif; }
 
 .nav-container {
   position: fixed;
@@ -101,11 +107,14 @@
       display: block;
       margin-bottom: 4px; } }
 
-.game-font, .nav-item {
+.game-font {
   font-family: 'Press Start 2P', cursive; }
 
 .roboto-font {
   font-family: 'Roboto', sans-serif; }
+
+.header-font, .nav-item {
+  font-family: 'Museo Slab', Arial, sans-serif; }
 
 .main-content {
   margin: 20% auto;
