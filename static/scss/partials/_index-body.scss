@@ -4,5 +4,7 @@
 .main-content{
 	margin: 20% auto;
 	width:80%;
-
+	min-height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }

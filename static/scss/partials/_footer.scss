@@ -1,0 +1,13 @@
+@import "modules/colors";
+@import "modules/fonts";
+
+.footer-container{
+		display:inline-block;
+	}
+	.footer-list{
+		text-align: center;
+	}
+	.footer-item, .nav-item{
+		display: inline-block;
+	}
+}
