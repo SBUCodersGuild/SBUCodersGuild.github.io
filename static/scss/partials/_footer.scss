@@ -9,5 +9,6 @@
 	}
 	.footer-item, .nav-item{
 		display: inline-block;
+		@extend .header-font;
 	}
 }

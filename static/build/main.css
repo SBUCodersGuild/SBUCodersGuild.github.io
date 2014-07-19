@@ -41,12 +41,12 @@
   border-left: none;
   color: #F0F0F0;
   text-shadow: -1px -1px 4px #000;
-  padding: 1em 0.5em;
+  padding: 0.5em;
   line-height: 1.4em;
   -webkit-box-shadow: 2px 2px 6px #000;
   -moz-box-shadow: 2px 2px 6px #000;
   box-shadow: 2px 2px 6px #000;
-  font-size: 36px;
+  font-size: 60px;
   max-width: 50%; }
   @media screen and (max-width: 1180px) {
     .nav-title {
@@ -74,7 +74,7 @@
       margin-bottom: 10px; } }
   @media screen and (max-width: 576px) {
     .nav-list {
-      width: 90%;
+      width: 100%;
       margin: 10px auto;
       float: left;
       padding: 0;
@@ -84,11 +84,10 @@
 
 .nav-item {
   display: inline-block;
-  padding: 0.5em 1em;
   margin-right: 20px;
   background: #AA0000;
   color: #F0F0F0;
-  font-size: 0.8em;
+  font-size: 18px;
   text-shadow: -1px -1px 4px #000;
   float: left;
   width: 120px;
