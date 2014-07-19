@@ -1,13 +1,13 @@
-.game-font {
+.game-font, .nav-item {
   font-family: 'Press Start 2P', cursive; }
 
-.roboto-font, .nav-item {
+.roboto-font {
   font-family: 'Roboto', sans-serif; }
 
-.game-font {
+.game-font, .nav-item {
   font-family: 'Press Start 2P', cursive; }
 
-.roboto-font, .nav-item {
+.roboto-font {
   font-family: 'Roboto', sans-serif; }
 
 .nav-container {
@@ -45,17 +45,21 @@
   display: inline-block;
   padding: 0.5em 1em;
   margin-right: 20px;
-  background: #F0F0F0;
+  background: #AA0000;
+  color: #F0F0F0;
   font-size: 0.8em;
+  text-shadow: -1px -1px 4px #000;
   float: left;
   width: 120px;
-  border-radius: 30px; }
-  .nav-item a {
-    color: #000; }
-  .nav-item a:hover {
-    color: #2C82BA; }
-  .nav-item a:active {
-    color: #AA0000; }
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 6px #000;
+  -moz-box-shadow: 2px 2px 6px #000;
+  box-shadow: 2px 2px 6px #000;
+  cursor: pointer; }
+  .nav-item:hover {
+    background: #FF3C40; }
+  .nav-item a:active, .nav-item a:visited {
+    color: #F0F0F0; }
 
 html > body {
   margin: 0 !important;
