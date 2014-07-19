@@ -18,6 +18,14 @@
   top: 0;
   width: 100%;
   margin-bottom: 10%; }
+  @media screen and (max-width: 1180px) {
+    .nav-container {
+      border-width: 0 0 8px 0;
+      border-color: #FF3C40;
+      border-style: solid; } }
+  @media screen and (max-width: 560px) {
+    .nav-container {
+      border: none; } }
 
 .nav-title {
   float: left;
@@ -56,15 +64,17 @@
       clear: both;
       display: block;
       float: left;
-      margin-top: 0; } }
-  @media screen and (max-width: 560px) {
+      margin-top: 0;
+      margin-bottom: 10px; } }
+  @media screen and (max-width: 576px) {
     .nav-list {
       width: 90%;
       margin: 10px auto;
       float: left;
       padding: 0;
       display: block;
-      clear: both; } }
+      clear: both;
+      border: none; } }
 
 .nav-item {
   display: inline-block;
@@ -90,6 +100,16 @@
       width: 100%;
       display: block;
       margin-bottom: 4px; } }
+
+.game-font, .nav-item {
+  font-family: 'Press Start 2P', cursive; }
+
+.roboto-font {
+  font-family: 'Roboto', sans-serif; }
+
+.main-content {
+  margin: 20% auto;
+  width: 80%; }
 
 html > body {
   margin: 0 !important;

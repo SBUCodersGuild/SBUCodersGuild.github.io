@@ -9,6 +9,16 @@
 	top:0;
 	width: 100%;
 	margin-bottom:10%;
+
+	@media screen and (max-width: 1180px){
+
+		border-width: 0 0 8px 0;
+		border-color: $red_accent;
+		border-style: solid;
+	}
+	@media screen and (max-width: 560px){
+		border: none;
+	}
 }
 .nav-title{
 	float:left;
@@ -51,14 +61,18 @@
 		display:block;
 		float: left;
 		margin-top: 0;
+		margin-bottom: 10px;
 	}
-	@media screen and (max-width: 560px){
+	@media screen and (max-width: 576px){
 		width: 90%;
 		margin: 10px auto;
 		float:left;
 		padding: 0;
 		display:block;
 		clear:both;
+
+		border:none;
+
 	}
 }
 .nav-item{
