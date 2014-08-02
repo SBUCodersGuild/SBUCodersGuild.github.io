@@ -3,7 +3,7 @@ SBUCodersGuild.github.io
 
 This is the repository for the site hosted at SBUCodersGuild.github.io
 
-Join the discussion on [![Gitter chat](https://badges.gitter.im/SBUCodersGuild/SBUCodersGuild.github.io.png)](https://gitter.im/SBUCodersGuild/SBUCodersGuild.github.io)
+Join the discussion on ~~Gitter~~ [Slack!](https://stonybrookcs.slack.com/).  Make sure you sign up with your stonybrook.edu email address or else you'll have to ask [Rob](http://github.com/robxu9) for an invite.
 
 
 ### Build & run the site locally:
