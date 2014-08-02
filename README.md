@@ -18,9 +18,11 @@ npm install --save-dev gulp
 - Install gulp dependencies (see full list below)
 - Follow instructions [here](https://www.github.com/gulpjs/gulp/blob/master/docs/getting-started.md) for running gulp
 - To deploy a local HTTP server for development run this from the root directory of the project:
+~~
 ```python
 python -m SimpleHTTPServer
 ```
+~~~
 ^ this will launch the site at 127.0.0.1:8000 by default
 
 --------------------
